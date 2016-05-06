@@ -1,0 +1,23 @@
+.diffhidden {
+    overflow:hidden;
+    padding:5px 10px;
+    font-size:18px;
+    margin:0 0 10px;
+    height:33px;
+    text-align:left;
+    color:#000;
+    cursor:pointer;
+    text-shadow:0 1px 2px #ddd;
+    border-bottom:1px solid #d8d8d8;
+    background-color:#A7DBD8;
+    background-image:-moz-linear-gradient(#A7DBD8, #69D2E7);
+    background-image:-webkit-linear-gradient(#A7DBD8, #69D2E7);
+    background-image:linear-gradient(#A7DBD8, #69D2E7);
+    background-repeat:repeat-x;
+}
+.hiders {
+    font-weight:bold
+    margin:5px 0;
+    padding:0 0 5px;
+    border-bottom:1px solid #000;
+}

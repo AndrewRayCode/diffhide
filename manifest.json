@@ -1,0 +1,12 @@
+{
+    "name": "Github Diff Hider",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Hide Compiled Files On Github",
+    "permissions": [ "<all_urls>" ],
+    "content_scripts": [ {
+        "matches": ["https://github.com/"],
+        "css": ["change.css"],
+        "js": ["jquery-1.7.1.min.js", "change.js"]
+    }]
+}
